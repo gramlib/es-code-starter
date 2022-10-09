@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
     'eslint-config-ali/typescript',
-    'prettier'
   ],
   rules: {
+    '@typescript-eslint/indent': 'off',
   },
 };
